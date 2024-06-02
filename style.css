@@ -279,6 +279,40 @@ footer h1{
     color: var(--other-color);
 }
 
+/* POST DETAILS  */
+
+section.content{
+    padding: 30px 0;
+    color: var(--secondary-color);
+}
+
+section.content .container{
+    text-align: left;
+}
+
+section.content h2{
+    width: 100%;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+section.content span{
+    color: var(--other-color);
+    margin-top: 10px;
+}
+
+section.content span b{
+    color: var(--secondary-color);
+}
+section.content .texto{
+    margin-top: 40px;
+}
+section.content p{
+    text-align: justify;
+    margin: 10px 0;
+}
+
+
 
 @media screen and (max-width: 768px){
     section.blog-content .subject{
